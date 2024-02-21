@@ -1,0 +1,8 @@
+{
+  "name": "foodies-web",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/foodies-web",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}

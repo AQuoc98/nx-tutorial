@@ -1,0 +1,8 @@
+{
+  "name": "styling-structure",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/styling-structure/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
