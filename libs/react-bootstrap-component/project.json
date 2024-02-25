@@ -1,0 +1,9 @@
+{
+  "name": "react-bootstrap-component",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/react-bootstrap-component/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+  }
+}

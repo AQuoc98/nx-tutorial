@@ -1,4 +1,5 @@
-import classes from './page.module.scss'
+import ImagePicker from '@/components/meals/image-picker';
+import classes from './page.module.scss';
 
 export default function ShareMealPage() {
   return (
@@ -31,14 +32,19 @@ export default function ShareMealPage() {
           </p>
           <p>
             <label htmlFor="instructions">Instructions</label>
-            <textarea id="instructions" name="instructions" rows="10" required></textarea>
+            <textarea
+              id="instructions"
+              name="instructions"
+              rows="10"
+              required
+            ></textarea>
           </p>
-          IMAGE PICKER
+          <ImagePicker />
           <p className={classes.actions}>
             <button type="submit">Share Meal</button>
           </p>
         </form>
       </main>
     </>
-  )
+  );
 }

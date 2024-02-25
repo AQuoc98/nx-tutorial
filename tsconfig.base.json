@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-tutorial/react-bootstrap-component/*": [
+        "libs/react-bootstrap-component/src/*"
+      ],
+      "@nx-tutorial/ui/*": ["libs/ui/src/*"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

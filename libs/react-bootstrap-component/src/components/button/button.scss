@@ -1,0 +1,9 @@
+@import '@nx-tutorial/ui/scss/abstracts/variables.scss';
+@import '../../scss/styles.scss';
+
+.react-button.react-button-primary {
+  background-color: $react-bootstrap-color;
+  & .is-text-small {
+    font-size: $fontsize-small;
+  }
+}

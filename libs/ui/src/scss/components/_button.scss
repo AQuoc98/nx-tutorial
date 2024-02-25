@@ -1,0 +1,11 @@
+// -----------------------------------------------------------------------------
+// This file contains styles for global button
+// -----------------------------------------------------------------------------
+
+.global-button {
+  width: 100px;
+  height: 100px;
+  &.is-text-small {
+    font-size: $fontsize-small;
+  }
+}

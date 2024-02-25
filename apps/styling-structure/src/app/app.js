@@ -1,8 +1,12 @@
-import NxWelcome from './nx-welcome';
+import { Button } from '@nx-tutorial/react-bootstrap-component/index.jsx';
+
 export function App() {
   return (
     <div>
-      <NxWelcome title="styling-structure" />
+      <button className='global-btn'>Global Button</button>
+      <Button className="is-text-small">
+        <p className="is-text-small">React Button</p>
+      </Button>
     </div>
   );
 }
